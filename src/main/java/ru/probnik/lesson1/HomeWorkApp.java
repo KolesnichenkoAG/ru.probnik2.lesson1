@@ -15,8 +15,7 @@ public class HomeWorkApp {
     public static void checkSumSing() {
         int a = 6;
         int b = 10;
-        int c = a + b;
-        if(c >= 0){
+        if(a + b > -1){
             System.out.println("Сумма положительная");
         }else{
             System.out.println("Сумма отрицательная");
